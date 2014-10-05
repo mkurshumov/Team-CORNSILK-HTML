@@ -130,3 +130,18 @@ body,html {
 #fastTrack a:hover {
 	color: #123816;
 }
+
+.newPic {
+	width: 60px;
+	float: left;
+}
+
+.newLink {
+	float: right;
+	background: red;
+	width: 100px;
+}
+
+.newPic:hover {
+	opacity: 0.5;
+}

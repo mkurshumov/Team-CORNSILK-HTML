@@ -9,6 +9,7 @@ body,html {
 	background: -moz-linear-gradient(bottom, #078f0d, #056309); 
 	background: linear-gradient(to bottom, #078f0d , #056309); 
 	height: 100%; */
+	min-height: 100%;
 }
 
 .wrap {
@@ -103,4 +104,29 @@ body,html {
 
 #footerMenu a:hover {
 	text-decoration: underline;
+}
+
+.indexContent {
+	width: 250px;
+	margin-right: 30px;
+	padding: 5px;
+	float: left;
+	background: #79BEDB;
+	border: 1px solid #6B78B4;
+	color: #282828;
+}
+
+.indexContent h2 {
+	color: #266A2E;
+}
+
+#fastTrack a {
+	font-size: 17px;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #266A2E;
+}
+
+#fastTrack a:hover {
+	color: #123816;
 }

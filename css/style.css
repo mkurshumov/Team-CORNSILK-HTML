@@ -138,10 +138,23 @@ body,html {
 
 .newLink {
 	float: right;
-	background: red;
-	width: 100px;
+	width: 140px;
+}
+
+.newLink a {
+	text-decoration: none;
+	color: #123816;
+}
+
+.newLink a:hover {
+	text-decoration: underline;
 }
 
 .newPic:hover {
 	opacity: 0.5;
+	transition: all 0.4s ease;
+}
+
+.newContent {
+	margin-top: 5px;
 }

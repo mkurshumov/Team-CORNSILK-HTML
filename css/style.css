@@ -70,6 +70,8 @@ body,html {
 	border-right: 1px solid #9f9f9f;
 	border-bottom: 1px solid #9f9f9f;
 	padding: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 #footer {
@@ -113,17 +115,18 @@ body,html {
 	float: left;
 	background: #79BEDB;
 	border: 1px solid #6B78B4;
-	color: #282828;
+	color: #000;
 }
 
 .indexContent h2 {
-	color: #266A2E;
+	color: #000;
+	background-color: #378baf;
+	padding-left: 5px;
 }
 
 #fastTrack a {
 	font-size: 17px;
-	text-decoration: underline;
-	font-weight: bold;
+	text-decoration: none;
 	color: #266A2E;
 }
 
@@ -143,11 +146,11 @@ body,html {
 
 .newLink a {
 	text-decoration: none;
-	color: #123816;
+	color: #266A2E;
 }
 
 .newLink a:hover {
-	text-decoration: underline;
+	color: #123816;
 }
 
 .newPic:hover {
@@ -155,6 +158,27 @@ body,html {
 	transition: all 0.4s ease;
 }
 
-.newContent {
+.indexNewsContent {
 	margin-top: 5px;
+}
+
+.news-title h2 {
+	font-family: Tahoma, sans-serif;
+	font-size: 25px;
+	background-color: #378baf;
+	padding-left: 5px;
+}
+
+.news-title h2:first-letter {
+	font-size: 40px;
+}
+
+.news {
+	background-color: #79bedb;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#content h1 {
+	color: #8b8b8b;
 }

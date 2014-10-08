@@ -216,3 +216,38 @@ body,html {
 	background: #0064c9;
 	color: #fff;
 }
+
+#jobsList {
+	background-color: red;
+	width: 150px;
+	padding: 10px;
+	float: left;
+	background-color: #79bedb;
+	border: 1px solid #6B78B4;
+}
+
+#jobsList ul {
+	list-style: none;
+}
+
+#jobDescription {
+	width: 680px;
+	background-color: #79bedb;
+	border: 1px solid #6B78B4;
+	float: right;
+	padding: 10px;
+}
+
+#jobsList a{
+	text-decoration: none;
+	color: #266A2E;
+	font-size: 20px;
+}
+
+#jobsList a:hover {
+	color: #123816;
+}
+
+#job2,#job3,#job4 {
+	display: none;
+}

@@ -249,7 +249,58 @@ body,html {
 }
 
 #job2,#job3,#job4 {
-	display: none;
+    display: none;
+}
+
+.job {
+    width: 500px;
+    height: 60px;
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+}
+
+#allJobs {
+    float: left;
+}
+
+.company {
+    width: 150px;
+    float: left;
+    border-right: 1px solid #000;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.theJob {
+    float: right;
+    margin-right: 140px;
+    width: 200px;
+    height: 60px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.jobPosition {
+    font-size: 17px;
+    width: 330px;
+}
+
+.job:hover {
+    background: #0064c9;
+}
+
+.job a {
+    text-decoration: none;
+    color: #000;
+}
+
+#jobDescription {
+    width: 350px;
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+    float: right;
 }
 
 #textBox {

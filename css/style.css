@@ -230,7 +230,7 @@ body,html {
 	list-style: none;
 }
 
-#jobDescription {
+#jobDescription2 {
 	width: 680px;
 	background-color: #79bedb;
 	border: 1px solid #6B78B4;
@@ -279,12 +279,12 @@ body,html {
     width: 200px;
     height: 60px;
     font-size: 14px;
-    margin-top: 10px;
 }
 
 .jobPosition {
     font-size: 17px;
     width: 330px;
+    margin-top: 10px;
 }
 
 .job:hover {

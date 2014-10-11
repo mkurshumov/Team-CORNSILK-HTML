@@ -1,3 +1,5 @@
+@import "mobile.css";
+
 * {
 	margin: 0;
 	padding: 0;
@@ -13,7 +15,7 @@ body,html {
 }
 
 .wrap {
-	width: 1111px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -21,8 +23,7 @@ body,html {
 	background: -webkit-linear-gradient(bottom, #8effa8, #74cc7d); 
 	background: -o-linear-gradient(bottom, #8effa8, #74cc7d); 
 	background: -moz-linear-gradient(bottom, #8effa8, #74cc7d); 
-	background: linear-gradient(to bottom, #8effa8 , #74cc7d); 
-	height: 80px;
+	background: linear-gradient(to bottom, #8effa8 , #74cc7d);
 }
 
 #logoHolder {
@@ -37,11 +38,11 @@ body,html {
 }
 
 #menu {
-	height: 60px;
+	height: auto;
 	width: 500px;
 	float: right;
 	margin-top: -74px;
-	margin-right: -100px;
+	margin-right: -2em;
 }
 
 #ulMenu li {

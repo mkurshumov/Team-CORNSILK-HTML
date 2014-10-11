@@ -59,7 +59,7 @@ body,html {
 }
 
 #underHeader {
-	background-image: url("../images/sheep.png");
+	background-image: url("../images/top-banner.png");
 	background-repeat: repeat-x;
 	height: 60px;
 }

@@ -4,10 +4,10 @@
 }
 
 body,html {
-	/*background: -webkit-linear-gradient(bottom, #078f0d, #056309); 
-	background: -o-linear-gradient(bottom, #078f0d, #056309); 
-	background: -moz-linear-gradient(bottom, #078f0d, #056309); 
-	background: linear-gradient(to bottom, #078f0d , #056309); 
+	/*background: -webkit-linear-gradient(bottom, #8effa8, #74cc7d); 
+	background: -o-linear-gradient(bottom, #8effa8, #74cc7d); 
+	background: -moz-linear-gradient(bottom, #8effa8, #74cc7d); 
+	background: linear-gradient(to bottom, #8effa8 , #74cc7d); 
 	height: 100%; */
 	min-height: 100%;
 }
@@ -18,8 +18,11 @@ body,html {
 }
 
 #header {
-	background: #05630a;
-	height: 76px;
+	background: -webkit-linear-gradient(bottom, #8effa8, #74cc7d); 
+	background: -o-linear-gradient(bottom, #8effa8, #74cc7d); 
+	background: -moz-linear-gradient(bottom, #8effa8, #74cc7d); 
+	background: linear-gradient(to bottom, #8effa8 , #74cc7d); 
+	height: 80px;
 }
 
 #logoHolder {
@@ -47,7 +50,7 @@ body,html {
 
 #ulMenu li a {
 	text-decoration: none;
-	color: #FFF;
+	color: black;
 	font-size: 18px;
 	padding: 8px;
 	font-family: VPT Sans,Tahoma,sans-serif;
@@ -81,7 +84,7 @@ body,html {
 }
 
 #footerLeft {
-	width: 260px;
+	width: 350px;
 	float: left;
 }
 

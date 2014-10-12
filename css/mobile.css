@@ -1,12 +1,19 @@
 @media screen and (max-width: 1245px) {
     #ad {
-        display: none !important;
+        width: 10% !important;
+        background: red;
     }
 
     .indexContent:nth-child(3) {
-       width: 20rem;
+       width: 30%;
     }
+}
 
+@media screen and (max-width: 1230px) {
+
+    #ad {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 1115px) {
@@ -35,9 +42,6 @@
 }
 
 @media screen and (max-width: 840px) {
-    #logoHolder  {
-
-    }
 
     #menu {
         margin: 0 auto !important;

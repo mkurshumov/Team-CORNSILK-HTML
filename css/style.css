@@ -10,12 +10,10 @@ image,img {
 }
 
 body,html {
-	/*background: -webkit-linear-gradient(bottom, #8effa8, #74cc7d); 
-	background: -o-linear-gradient(bottom, #8effa8, #74cc7d); 
-	background: -moz-linear-gradient(bottom, #8effa8, #74cc7d); 
-	background: linear-gradient(to bottom, #8effa8 , #74cc7d); 
-	height: 100%; */
-	min-height: 100%;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    word-wrap: break-word;
+    max-width: 100%
 }
 
 .wrap {

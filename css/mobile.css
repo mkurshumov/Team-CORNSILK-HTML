@@ -24,11 +24,20 @@
 }
 
 @media screen and (max-width: 840px) {
-    #logo {
-        display: none;
+    #logoHolder  {
+
     }
+
     #menu {
-        float: left !important;
+        margin: 0 auto !important;
+        width: 400px;
+        padding-bottom: 15px;
+        padding-top: 5px;
+        float: none !important;
+    }
+
+    #underHeader {
+        display: none;
     }
 
     #ulMenu li a {
@@ -99,7 +108,17 @@
     }
 
     #logoHolder {
-        display: none !important;
+        width: auto !important;
+        vertical-align: bottom;
+        float: left !important;
+    }
+
+    #logo {
+        background-size: 79px 73px;
+        background-repeat: no-repeat;
+        width: 79px !important;
+        height: 73px !important;
+        background-image: url("../images/mini-logo.png") !important;
     }
 }
 

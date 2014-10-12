@@ -1,7 +1,6 @@
 @media screen and (max-width: 1245px) {
     #ad {
         width: 10% !important;
-        background: red;
     }
 
     .indexContent:nth-child(3) {
@@ -135,6 +134,7 @@
         height: 73px !important;
         background-image: url("../images/mini-logo.png") !important;
     }
+
 }
 
 @media screen and (max-width: 500px) {

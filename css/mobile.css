@@ -6,6 +6,21 @@
     #menu {
         margin-right: -5em !important;
     }
+
+}
+
+@media screen and (max-width: 1115px) {
+    .indexContent {
+        width: 25% !important;
+    }
+
+    .newPic {
+        float: none !important;
+    }
+
+    .newLink {
+        float: none !important;
+    }
 }
 
 @media screen and (max-width: 840px) {
@@ -15,6 +30,54 @@
     #menu {
         float: left !important;
     }
+
+    #ulMenu li a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        padding: 8px;
+        font-family: VPT Sans,Tahoma,sans-serif;
+    }
+
+    #ulMenu li a:hover {
+        background: #D0CA9C;
+        border-radius: 5px;
+    }
+
+    /*.indexContent {
+        width: 98% !important;
+        margin-top: 5px;
+    }*/
+
+    .indexContent:nth-child(1) {
+        width: 98% !important;
+    }
+
+    .indexContent:nth-child(2),.indexContent:nth-child(3) {
+        width: 44% !important;
+    }
+
+    .indexContent:nth-child(2) {
+         float: left;
+     }
+
+    .indexContent:nth-child(3) {
+        margin-right: 0px !important;
+        float: right;
+    }
+
+    .wrap {
+        width: 100% !important;
+    }
+
+    #content {
+        width: auto !important;
+    }
+
+    #footerLeft {
+        width: auto !important;
+    }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -30,12 +93,44 @@
     }
     #menu {
         float: none !important;
-        width: 150px !important;
-        position: relative;
-        left: 35%;
+        width: 103px !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
     }
 
     #logoHolder {
-        height: 80px !important;
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .indexContent:nth-child(2) {
+        width: 98% !important;
+        float: none !important;
+    }
+
+    .indexContent:nth-child(3) {
+        width: 98% !important;
+        float: none !important;
+    }
+
+    #footerRight {
+        float: none !important;
+        margin: 0 auto !important;
+        width: 140px !important;
+    }
+
+    #footerLeft {
+        float: none !important;
+        margin: 0 auto !important;
+        width: 260px !important;
+    }
+
+    #fastTrack {
+        text-align: center;
+    }
+
+    #indexNewsContent {
+        text-align: center !important;
     }
 }

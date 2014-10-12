@@ -1,10 +1,10 @@
-@media screen and (max-width: 960px) {
-    #ulMenu li a {
-        font-size: 15px !important;
+@media screen and (max-width: 1245px) {
+    #ad {
+        display: none !important;
     }
 
-    #menu {
-        margin-right: -5em !important;
+    .indexContent:nth-child(3) {
+       width: 20rem;
     }
 
 }
@@ -21,6 +21,17 @@
     .newLink {
         float: none !important;
     }
+}
+
+@media screen and (max-width: 960px) {
+    #ulMenu li a {
+        font-size: 15px !important;
+    }
+
+    #menu {
+        margin-right: -5em !important;
+    }
+
 }
 
 @media screen and (max-width: 840px) {
@@ -123,6 +134,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
     .indexContent:nth-child(2) {
         width: 98% !important;
         float: none !important;
@@ -151,5 +163,15 @@
 
     #indexNewsContent {
         text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #contactForm input,textarea {
+        width: 90% !important;
+    }
+
+    #contactForm #contactFormSubmit {
+        width: 93% !important;
     }
 }

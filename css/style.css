@@ -249,11 +249,11 @@ body,html {
 }
 
 #jobDescription2 {
-	width: 680px;
+    width: 93%;
 	background-color: #79bedb;
 	border: 1px solid #6B78B4;
-	float: right;
-	padding: 10px;
+	padding-left: 10px;
+    text-align: left;
 }
 
 #jobsList a{

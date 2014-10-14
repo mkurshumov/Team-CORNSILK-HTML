@@ -13,7 +13,9 @@ body,html {
     font-family: Georgia, serif;
     font-size: 15px;
     word-wrap: break-word;
-    max-width: 100%
+    max-width: 100%;
+    background-color: #FFF;
+    color: #000;
 }
 
 .wrap {
@@ -193,8 +195,11 @@ body,html {
 
 .news {
 	background-color: #79bedb;
-	padding: 10px;
+	padding: 20px;
 	margin-top: 10px;
+}
+.news ul {
+    padding-left: 15px;
 }
 
 #content h1 {
@@ -252,7 +257,6 @@ body,html {
     width: 93%;
 	background-color: #79bedb;
 	border: 1px solid #6B78B4;
-	padding-left: 10px;
     text-align: left;
 }
 

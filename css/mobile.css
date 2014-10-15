@@ -143,11 +143,13 @@
     }
 
     #jobDescription2 {
-        float: left;
+        float: none;
+        width: 90%
     }
 
     #jobsList {
-        width: 89% !important;
+        float: left !important;
+        width: 90% !important;
     }
 
 }

@@ -241,7 +241,6 @@ body,html {
 }
 
 #jobsList {
-	background-color: red;
 	width: 150px;
 	padding: 10px;
 	float: left;
@@ -254,10 +253,10 @@ body,html {
 }
 
 #jobDescription2 {
-    width: 93%;
 	background-color: #79bedb;
 	border: 1px solid #6B78B4;
     text-align: left;
+    padding: 10px;
 }
 
 #jobsList a{

@@ -24,10 +24,10 @@ body,html {
 }
 
 #header {
-	background: -webkit-linear-gradient(bottom, #8effa8, #74cc7d); 
-	background: -o-linear-gradient(bottom, #8effa8, #74cc7d); 
-	background: -moz-linear-gradient(bottom, #8effa8, #74cc7d); 
-	background: linear-gradient(to bottom, #8effa8 , #74cc7d);
+	background: -webkit-linear-gradient(bottom, #389ACF, #A9D1AD); 
+	background: -o-linear-gradient(bottom, #389ACF, #A9D1AD); 
+	background: -moz-linear-gradient(bottom, #389ACF, #A9D1AD); 
+	background: linear-gradient(to bottom, #389ACF, #A9D1AD);
 }
 
 #logoHolder {
@@ -61,7 +61,7 @@ body,html {
 }
 
 #ulMenu li a:hover {
-	background: #D0CA9C;
+	background: #9dff8e;
 	border-radius: 5px;
 }
 
@@ -176,6 +176,19 @@ body,html {
 .newPic:hover {
 	opacity: 0.5;
 	transition: all 0.4s ease;
+}
+
+#lastNews, #lastNews1 {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.news {
+	box-shadow: 5px 5px 10px #888888;
 }
 
 .indexNewsContent {

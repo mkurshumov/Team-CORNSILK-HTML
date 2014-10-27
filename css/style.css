@@ -9,7 +9,7 @@ image,img {
 
 body,html {
     font-family: Georgia, serif;
-    font-size: 15px;
+    font-size: 20px;
     word-break: keep-all;
     max-width: 100%;
     background-color: #FFF;
@@ -358,6 +358,12 @@ h1, h2 {
     display: inline-block;
     vertical-align: top;
     margin-top: 5px;
+}
+
+.contact {
+    display: inline-block;
+    float: right;
+    width: 50%;
 }
 
 .course {

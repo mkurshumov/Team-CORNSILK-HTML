@@ -353,6 +353,14 @@ h1, h2 {
     margin-top: 5px;
 }
 
+
+.pastir, .ovca {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 60%;
+}
+
 .course {
     display: inline-block;
     padding: 10px;

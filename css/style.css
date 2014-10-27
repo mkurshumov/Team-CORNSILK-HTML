@@ -361,19 +361,11 @@ h1, h2 {
     resize: none;
 }
 
-.nakov {
+.nakov, .acho, .qna {
     width: 21%;
     display: inline-block;
-}
-
-.acho {
-    width: 21%;
-    display: inline-block;
-}
-
-.qna {
-    width: 21%;
-    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
 }
 
 

@@ -108,6 +108,15 @@
         float: left !important;
         text-align: left !important;
     }
+    
+    
+    .trainers {
+        text-align: left !important;
+    }
+    
+    .nakov, .acho, .qna {
+        width: 150px !important;
+    }
 }
 
 @media screen and (max-width: 620px) {
@@ -155,6 +164,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
     .company {
         display: none !important;
     }
@@ -162,10 +172,7 @@
     .location {
         display: none;
     }
-}
-
-@media screen and (max-width: 500px) {
-
+    
     .indexContent:nth-child(2) {
         width: 98% !important;
         float: none !important;
@@ -210,5 +217,4 @@
         margin: 0 !important;
         width: 100% !important;
     }
-    
 }

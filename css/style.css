@@ -117,8 +117,9 @@ body,html {
 
 .indexContent {
     transition: width 0.3s ease-in-out 0s;
-    width: 435px;
+    width: 25%;
     margin-right: 15px;
+	margin-top: 20px;
     padding: 5px;
     float: left;
     background: #79BEDB;
@@ -130,19 +131,7 @@ body,html {
     box-shadow: 5px 5px 10px #888888;
 }
 
-#content>.indexContent:nth-child(1) {
-    width: 800px;
-}
 
-#content>.indexContent:nth-child(2) {
-    height: 300px;
-}
-
-.indexContent>p {
-    font-size: 26px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 #ad {
     width: 150px;
@@ -157,13 +146,14 @@ body,html {
 .indexContent h2 {
     color: #000;
     background-color: #378baf;
-    padding: 20px;
+    padding: 5px;
 }
 
 #fastTrack a {
-    font-size: 28px;
+    font-size: 20px;
     text-decoration: none;
     color: #266A2E;
+	padding: 5px;
 }
 
 #fastTrack a:hover {
@@ -385,20 +375,6 @@ h1, h2 {
     border-radius: 3px;
     margin-top: 5px;
     padding: 5px;
-}
-
-.news {
-    font-size: 24px;
-    border-radius: 20px;
-}
-
-.news-title {
-    border-radius: 20px;
-}
-
-.news-content {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .kurtovo {

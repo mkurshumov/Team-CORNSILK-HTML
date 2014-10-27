@@ -6,21 +6,21 @@
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
     <meta charset="UTF-8" />
     <script type="text/javascript">
-
-        openCourseDetails(2);
-        /*var url = window.location.search;
-        var stringSplit = url.split("?course=");
-        var courseNumber = stringSplit[1];
-        if(courseNumber!=null){
-
-            if(parseInt(courseNumber) == 1){
-                openCourseDetails(1);
-            }
-            else if(parseInt(courseNumber) == 2) {
-                openCourseDetails(2);
-                alert("asd");
-            }
-        }*/
+		
+		document.addEventListener("DOMContentLoaded", function(){
+			var url = window.location.search;
+			var stringSplit = url.split("?course=");
+			var courseNumber = stringSplit[1];
+			if(courseNumber!=null){
+				if(parseInt(courseNumber) == 1){
+					openCourseDetails(1);
+				}
+				else if(parseInt(courseNumber) == 2) {
+					openCourseDetails(2);
+				}
+			}
+		});
+        
         function openCourseDetails(number) {
 
             if (number == 1) {

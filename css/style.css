@@ -9,7 +9,7 @@ image,img {
 
 body,html {
     font-family: Georgia, serif;
-    font-size: 20px;
+    font-size: 15px;
     word-break: keep-all;
     max-width: 100%;
     background-color: #FFF;
@@ -96,7 +96,14 @@ body,html {
 }
 
 .clear {
-    clear: both;
+    *zoom: 1;
+}
+
+.clear:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
 }
 
 #footerMenu li {
@@ -353,14 +360,6 @@ h1, h2 {
     margin-top: 5px;
 }
 
-
-.pastir, .ovca {
-    margin-left: auto;
-    display: block;
-    margin-right: auto;
-    width: 60%;
-}
-
 .course {
     display: inline-block;
     padding: 10px;
@@ -391,4 +390,12 @@ h1, h2 {
 
 .trainers {
     text-align: center;
+}
+
+#contact-pic {
+	float: right;
+}
+
+#contactForm {
+	float: left;
 }

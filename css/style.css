@@ -307,7 +307,7 @@ h1, h2 {
 }
 
 .job {
-    height: 60px;
+    padding: 5px 0 5px 2px;
     background-color: #79bedb;
     border: 1px solid #6B78B4;
 
@@ -319,7 +319,7 @@ h1, h2 {
 
 .company {
     float: left;
-    border-right: 1px solid #000;
+    border-right: 1px solid #0064C9;
     height: 60px;
     text-align: center;
     line-height: 60px;
@@ -328,9 +328,8 @@ h1, h2 {
 }
 
 .theJob {
-    float: right;
+    float: left;
     margin-right: 140px;
-    height: 60px;
     font-size: 14px;
     padding-left: 5px;
 }

@@ -107,8 +107,13 @@
     #jobDescription {
         float: left !important;
         text-align: left !important;
+        width: 250px !important;
+        margin-top: 10px;
     }
     
+    .company {
+        display: none;
+    }
     
     .trainers {
         text-align: left !important;

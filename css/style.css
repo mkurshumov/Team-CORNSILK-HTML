@@ -305,6 +305,7 @@ h1, h2 {
 }
 
 .company {
+    width: 120px;
     float: left;
     border-right: 1px solid #0064C9;
     height: 60px;
@@ -319,6 +320,7 @@ h1, h2 {
     margin-right: 140px;
     font-size: 14px;
     padding-left: 5px;
+    width: 100%;
 }
 
 .jobPosition {

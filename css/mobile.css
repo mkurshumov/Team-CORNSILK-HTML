@@ -107,8 +107,12 @@
     #jobDescription {
         float: left !important;
         text-align: left !important;
-        width: 250px !important;
+        width: 90% !important;
         margin-top: 10px;
+    }
+    
+    #allJobs {
+        width: 95% !important;
     }
     
     .company {

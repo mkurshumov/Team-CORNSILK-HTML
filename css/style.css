@@ -346,13 +346,12 @@ h1, h2 {
     resize: none;
 }
 
-.nakov, .acho, .qna {
+.nakov, .acho, .kiko {
     width: 21%;
     display: inline-block;
     vertical-align: top;
     margin-top: 5px;
 }
-
 
 .course {
     display: inline-block;

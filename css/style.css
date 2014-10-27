@@ -166,8 +166,9 @@ body,html {
 }
 
 .newLink {
-    float: right;
-    width: 140px;
+    float: left;
+    width: 170px;
+    padding-left: 10px;
 }
 
 .newLink a {
@@ -317,9 +318,7 @@ h1, h2 {
 
 .theJob {
     float: left;
-    margin-right: 140px;
     font-size: 14px;
-    padding-left: 5px;
     width: 100%;
 }
 

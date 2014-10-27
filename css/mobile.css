@@ -41,7 +41,7 @@
 @media screen and (max-width: 1000px) {
     #menu {
         margin: 0 auto;
-        width: 610px;
+        width: 690px;
         padding-bottom: 15px;
         padding-top: 5px;
         float: none;
@@ -140,7 +140,7 @@
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 700px) {
     #ulMenu li {
         display: block;
         float: none;

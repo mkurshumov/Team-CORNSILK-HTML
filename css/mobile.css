@@ -205,4 +205,10 @@
     #contactForm #contactFormSubmit {
         width: 93% !important;
     }
+    
+    .jobPosition {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    
 }

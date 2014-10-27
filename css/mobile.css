@@ -28,11 +28,11 @@
         width: 25% !important;
     }
 
-    .newPic {
+    .newsPic {
         float: none !important;
     }
 
-    .newLink {
+    .newsLink {
         float: none !important;
         padding: 0 !important;
     }
@@ -130,11 +130,11 @@
         width: 150px !important;
     }
     
-    .newPic {
+    .newsPic {
         display: none !important;
     }
     
-    .newLink {
+    .newsLink {
         width: 100%;
         padding-bottom: 10px;
     }

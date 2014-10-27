@@ -160,27 +160,27 @@ body,html {
     color: #123816;
 }
 
-.newPic {
+.newsPic {
     width: 60px;
     float: left;
 }
 
-.newLink {
+.newsLink {
     float: left;
     width: 170px;
     padding-left: 10px;
 }
 
-.newLink a {
+.newsLink a {
     text-decoration: none;
     color: #266A2E;
 }
 
-.newLink a:hover {
+.newsLink a:hover {
     color: #123816;
 }
 
-.newPic:hover {
+.newsPic:hover {
     opacity: 0.5;
     transition: all 0.4s ease;
 }

@@ -12,7 +12,7 @@ my_header("Преподаватели - Овчарски Университет"
                     <img src="images/nakov.jpg" alt="nakov" />
                 </div>
                 <div class="acho">
-                    <h3>бай Иван</h3>
+                    <h3>бат Ачо</h3>
                     <img src="images/a4o.jpg" alt="acho"/>
                 </div>
 				<div class="kiko">

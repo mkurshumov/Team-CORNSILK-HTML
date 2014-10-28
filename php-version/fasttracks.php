@@ -4,7 +4,7 @@ my_header("Fast Track - Овчарски Университет");
 ?>
 <div class="wrap">
     <div id="content">
-        <h1>Новини</h1>
+        <h1>Fast Track</h1>
 
         <div class="course" onclick="openCourseDetails(1);">Викове</div>
         <div class="course" onclick="openCourseDetails(2);">Дресировка на куче</div>

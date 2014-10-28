@@ -147,6 +147,10 @@
         padding: 3px;
     }
 	
+	#content h1 {
+		font-size: 30px;
+	}
+	
 	#contact-pic {
 		float: none;
 		padding-top: 350px;

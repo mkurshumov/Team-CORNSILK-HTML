@@ -355,7 +355,7 @@ h1, h2 {
 }
 
 .nakov, .acho, .kiko {
-    width: 21%;
+    width: 150px;
     display: inline-block;
     vertical-align: top;
     margin-top: 5px;
@@ -401,6 +401,7 @@ h1, h2 {
 
 #contact-pic {
 	float: right;
+	width: 50%;
 }
 
 #contactForm {

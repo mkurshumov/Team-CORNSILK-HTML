@@ -146,6 +146,11 @@
         float: none;
         padding: 3px;
     }
+	
+	#contact-pic {
+		float: none;
+		padding-top: 350px;
+	}
 
     #ulMenu li a:hover {
         background: none;

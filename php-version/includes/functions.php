@@ -46,6 +46,7 @@ function footer() {
 				<li><a href="trainers">Преподаватели</a></li>
 				<li><a href="jobs">Професии</a></li>
 				<li><a href="contacts">Контакти</a></li>
+				<li><a href="http://validator.w3.org/check?uri=http%3A%2F%2Fvalentinn.cloudvps.bg%2Findex" target="_blank"><img src="images/html-validate.png" alt="html validator" /></a></li>
 			</ul>
 		</div>
 		<div class="clear"></div>

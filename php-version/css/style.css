@@ -275,6 +275,10 @@ h1, h2 {
     border: 1px solid #6B78B4;
 }
 
+#jobsList li {
+	padding: 5px;
+}
+
 #jobsList ul {
     list-style: none;
 }
@@ -284,6 +288,7 @@ h1, h2 {
     border: 1px solid #6B78B4;
     text-align: left;
     padding: 10px;
+	float: left;
 }
 
 #jobsList a{

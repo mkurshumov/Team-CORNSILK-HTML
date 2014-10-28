@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+image,img {
+    max-width: 100%;
+}
+
+body,html {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    word-break: keep-all;
+    max-width: 100%;
+    background-color: #FFF;
+    color: #000;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #389ACF;
+}
+
+#logoHolder {
+    width: 255px;
+    height: 74px;
+}
+
+#logo {
+    background-image: url("../images/logo.png");
+    width: 255px;
+    height: 65px;
+}
+
+#menu {
+    height: auto;
+    float: right;
+    margin-top: -50px;
+}
+
+#ulMenu li {
+    display: inline;
+}
+
+#ulMenu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+    transition: font 0.3s ease-in-out 0s;
+    font-family: VPT Sans,Tahoma,sans-serif;
+}
+
+#ulMenu li a:hover {
+    background: #9dff8e;
+    border-radius: 5px;
+}
+
+#underHeader {
+    background-image: url("../images/top-banner.png");
+    background-repeat: repeat-x;
+    height: 60px;
+}
+
+#content {
+    background: #e2e2e2;
+    border-left: 1px solid #9f9f9f;
+    border-right: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+}
+
+
+
+#footer {
+    background: #ccc;
+    border: 1px solid #9f9f9f;
+    margin-top: 20px;
+	font-size: 15px;
+}
+
+#footerLeft {
+    width: 350px;
+    float: left;
+}
+
+#footerRight {
+    width: 200px;
+    float: right;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+.clear:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+#footerMenu li {
+    display: block;
+}
+
+#footerMenu a {
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+}
+
+#footerMenu a:hover {
+    text-decoration: underline;
+}
+
+.indexContent {
+    transition: width 0.3s ease-in-out 0s;
+    width: 25%;
+    margin-right: 15px;
+	margin-top: 20px;
+    padding: 5px;
+    float: left;
+    background: #79BEDB;
+    border: 1px solid #6B78B4;
+    color: #000;
+    font-size: 1em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+
+
+#ad {
+    width: 150px;
+    float: right;
+}
+
+#ad p {
+    font-size: 11px;
+    float: right;
+}
+
+.indexContent h2 {
+    color: #000;
+    background-color: #378baf;
+    padding: 5px;
+}
+
+#fastTrack a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #266A2E;
+	padding: 5px;
+}
+
+#fastTrack a:hover {
+    color: #123816;
+}
+
+.newsPic {
+    width: 60px;
+    float: left;
+}
+
+.newsLink {
+    float: left;
+    width: 170px;
+    padding-left: 10px;
+}
+
+.newsLink a {
+    text-decoration: none;
+    color: #266A2E;
+}
+
+.newsLink a:hover {
+    color: #123816;
+}
+
+.newsPic:hover {
+    opacity: 0.5;
+    transition: all 0.4s ease;
+}
+
+#lastNews, #lastNews1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.news {
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.indexNewsContent {
+    margin-top: 5px;
+}
+
+.news-title h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: #378baf;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.news-title h2:first-letter {
+    font-size: 40px;
+}
+
+.news {
+    background-color: #79bedb;
+    padding: 20px;
+    margin-top: 10px;
+}
+.news ul {
+    padding-left: 15px;
+}
+
+#content h1 {
+    color: #8b8b8b;
+}
+
+#contactsTitle {
+    background-color: #79bedb;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: #378baf;
+    padding-left: 5px;
+}
+
+#contactForm input,textarea{
+    width: 300px;
+    height: 35px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    color: #6d6d6d;
+    margin-top: 5px;
+}
+
+#contactForm textarea {
+    height: 120px;
+}
+
+#contactFormSubmit {
+    width: 100px !important;
+    border: 0 !important;
+    margin-top: 5px;
+}
+
+#contactFormSubmit:hover {
+    background: #0064c9;
+    color: #fff;
+}
+
+#jobsList {
+    width: 150px;
+    padding: 10px;
+    float: left;
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+}
+
+#jobsList ul {
+    list-style: none;
+}
+
+#jobDescription2 {
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+    text-align: left;
+    padding: 10px;
+}
+
+#jobsList a{
+    text-decoration: none;
+    color: #266A2E;
+    font-size: 20px;
+}
+
+#jobsList a:hover {
+    color: #123816;
+}
+
+#job2,#job3,#job4 {
+    display: none;
+}
+
+.job {
+    padding: 5px 0 5px 2px;
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+
+}
+
+#allJobs {
+    float: left;
+}
+
+.company {
+    width: 120px;
+    float: left;
+    border-right: 1px solid #0064C9;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+}
+
+.theJob {
+    float: left;
+    font-size: 14px;
+    width: 100%;
+}
+
+.jobPosition {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.job:hover {
+    background: #0064c9;
+}
+
+.job a {
+    text-decoration: none;
+    color: #000;
+}
+
+#jobDescription {
+    width: 95%;
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+    text-align: right;
+    padding: 10px 2px 10px 10px;
+}
+
+#textBox {
+    resize: none;
+}
+
+.nakov, .acho, .kiko {
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.contact {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+.course {
+    display: inline-block;
+    padding: 10px;
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+    border-radius: 3px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.course:hover {
+    background-color: #6B78B4;
+}
+
+#courseContent {
+    background-color: #79bedb;
+    border: 1px solid #6B78B4;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.kurtovo {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+}
+
+.trainers {
+    text-align: center;
+}
+
+#contact-pic {
+	float: right;
+}
+
+#contactForm {
+	float: left;
+}
